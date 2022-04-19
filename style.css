@@ -1,0 +1,46 @@
+html {
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.logo {
+    margin: 5px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-decoration-color: #2b2b2b;
+    margin: 5px;
+}
+
+.links a {
+    color: #2b2b2b;
+}
+
+
+
+.links a:hover {
+    color: #2b2bb2;
+    transition: all 0.3s linear;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+}
